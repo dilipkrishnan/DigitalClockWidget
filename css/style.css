@@ -19,7 +19,7 @@ body{
   position: relative;
   color: #ffffff;
   background: #393E46;
-  width: 400px;
+  width: 350px;
   padding: 20px 20px;
   box-shadow: 0 5px 25px rgba(0, 173, 181, 0.8);
   border-radius: 10px;
@@ -68,7 +68,7 @@ body{
   align-items: center;
   font-weight: 600;
   padding: 0 10px;
-  line-height: 125px;
+  line-height: 100px;
 }
 
 .hours, .minutes{
@@ -99,7 +99,6 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 10px;
 }
 
 .period, .seconds{
@@ -108,14 +107,14 @@ body{
 }
 
 .period{
-  transform: translateY(-20px);
+  transform: translateY(-10px);
   background: -webkit-linear-gradient(90deg,#f7b63f, #faf879);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .seconds{
-  transform: translateY(16px);
+  transform: translateY(10px);
   background: -webkit-linear-gradient(90deg,#24ff6d,#2f93f1);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
