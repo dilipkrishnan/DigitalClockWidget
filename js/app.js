@@ -8,7 +8,7 @@
       let period = "AM";
 
       //set AM/PM and 12-hour time
-      if (hours >= 12){
+      if (hours > 12){
           period = "PM";
           hours = hours - 12;
       }

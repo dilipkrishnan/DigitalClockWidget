@@ -19,8 +19,8 @@ body{
   position: relative;
   color: #ffffff;
   background: #393E46;
-  width: 425px;
-  padding: 20px 45px;
+  width: 400px;
+  padding: 20px 20px;
   box-shadow: 0 5px 25px rgba(0, 173, 181, 0.8);
   border-radius: 10px;
   display: flex;
