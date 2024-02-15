@@ -19,7 +19,7 @@ body{
   position: relative;
   color: #ffffff;
   background: #393E46;
-  width: 350px;
+  width: 300px;
   padding: 20px 20px;
   box-shadow: 0 5px 25px rgba(0, 173, 181, 0.8);
   border-radius: 10px;
@@ -68,12 +68,12 @@ body{
   align-items: center;
   font-weight: 600;
   padding: 0 10px;
-  line-height: 100px;
+  line-height: 75px;
 }
 
 .hours, .minutes{
-  font-size: 6.5em;
-  width: 125px;
+  font-size: 5.5em;
+  width: 100px;
 }
 
 .dots{
