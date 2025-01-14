@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST</title>
+</head>
+<body>
+  <h1 id="test">TEST</h1>
+
+  <script>
+    function isMobile() {
+      const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+      return regex.test(navigator.userAgent);
+    }
+    
+    if (isMobile()) {
+      document.getElementById('test').innerHTML = 'Mobile device detected';
+      console.log("Mobile device detected");
+    } else {
+      document.getElementById('test').innerHTML = 'Desktop device detected';
+      console.log("Desktop device detected");
+    }
+    </script>
+    
+</body>
+</html>
